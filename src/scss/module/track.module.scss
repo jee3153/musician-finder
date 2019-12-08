@@ -1,0 +1,40 @@
+.track {
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  margin-right: 10px;
+  background-color: rgb(75, 73, 73);
+  box-shadow: rgb(202, 202, 202);
+  transition: all 0.2s ease-in-out;
+  &__wrapper {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  &__artwork {
+    width: 10vw;
+    font-weight: 700;
+    border-radius: 10px;
+  }
+  &__rhs {
+    text-align: center;
+  }
+  &__username {
+    padding-bottom: 2rem;
+    margin-top: 10px;
+  }
+  &__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  &__link {
+  }
+  &-content__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &:hover {
+    background-image: linear-gradient(rgb(172, 68, 85), rgb(221, 150, 17));
+  }
+}

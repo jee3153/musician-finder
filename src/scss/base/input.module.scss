@@ -1,0 +1,17 @@
+.input {
+  caret-color: #fff;
+  color: #fff;
+  font-size: 20px;
+
+  width: 40vw;
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  appearance: none;
+
+  &:focus {
+    border-bottom: 2px solid #fff;
+  }
+}

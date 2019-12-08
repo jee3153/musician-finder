@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Snapshot renders 1`] = `
+<div
+  className="form__wrapper"
+>
+  <h1>
+    LET'S SEARCH A TRACK.
+  </h1>
+  <form
+    className="form"
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus="autofocus"
+      className="input"
+      onChange={[Function]}
+      placeholder="Search a track"
+      type="text"
+      value=""
+    />
+    <button
+      className="button button__submit"
+    >
+      GO
+    </button>
+  </form>
+</div>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoList Snapshot renders 1`] = `
+<div
+  className="NoList"
+>
+  <p>
+    No result found with the keyword "
+    <span
+      className="NoList__query"
+    />
+    "
+  </p>
+</div>
+`;

@@ -1,12 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import App from './App';
 
+import NoList from './NoList';
 
-describe('App Snapshot', () => {
+describe('NoList Snapshot', () => {
   test('renders', () => {
     const component = renderer.create(
-      <App />
+      <NoList />
     )
     let tree = component.toJSON()
     expect(tree).toMatchSnapshot()
